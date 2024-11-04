@@ -1,0 +1,28 @@
+{
+  "name": "sidra-contracts",
+  "version": "1.0.0",
+  "description": "Genesis Smart Contracts for Sidra Chain",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test",
+    "migrate": "truffle migrate --network development",
+    "deploy": "truffle migrate --network mainnet",
+    "verify": "hardhat verify --network mainnet",
+    "compile": "truffle compile"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "dotenv": "^10.0.0",
+    "hardhat": "^2.6.4",
+    "hardhat-ethers": "^2.0.0",
+    "hardhat-waffle": "^2.0.0"
+  },
+  "devDependencies": {
+    "truffle": "^5.4.0",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
